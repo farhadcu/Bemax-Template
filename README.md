@@ -10,5 +10,6 @@ https://thisistanvir.github.io/Bemax-Template/
    * Owl-Carousel
    * Slick Nav
    * Color Nip
+   * Scroll Up
  
 ![bemax](https://user-images.githubusercontent.com/56197895/77243432-1da9fc00-6c34-11ea-8f07-127cc4af8d2c.jpg)
