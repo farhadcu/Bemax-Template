@@ -22,6 +22,7 @@
 12. Brand Area
 13. Footer Area
 14. Color NIp
+15. ScrollUp
 */
 
 
@@ -1202,8 +1203,22 @@ button#Switcher__control {
 .Switcher {
     top: 20% !important;
 }
-
 /* End Color NIp */
+/* Start ScrollUp */
+#scrollUp {
+    background: #4272d7;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #fff;
+}
+/* End ScrollUp */
 
 
 

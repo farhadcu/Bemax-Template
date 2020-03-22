@@ -9,6 +9,6 @@
     color: #ffe048;
 }
 
-.btn, .owl-carousel .owl-dots button.active, .icon-box-content, .item-icon i, .theme-bg, .project-inner::after, .social-links li:hover {
+.btn, .owl-carousel .owl-dots button.active, .icon-box-content, .item-icon i, .theme-bg, .project-inner::after, .social-links li:hover, #scrollUp {
     background-color: #ffe048;
 }
