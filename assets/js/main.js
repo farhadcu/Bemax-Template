@@ -20,22 +20,7 @@
                 $(this).addClass('active');
             });
 
-            // Smooth Scroll for IE/ EDGE/ SAFARI
-            $('a').on('click', function(event){
-                if (this.hash !==''){
-                    event.preventDefault();
-
-                    var hash = this.hash;
-
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                        }, 800, function(){
-                        window.location.hash = hash;
-                    });
-                }
-            });
-            });
-            // End Smooth Scroll for IE/ EDGE/ SAFARI
+            
 
             // Search Trigger
             $('.search-trigger').on('click', function(){
@@ -140,5 +125,29 @@ $.scrollUp({
     activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
   });
 //   Scroll Up
+
+//   Magnific Popup
+$(".video-play").magnificPopup({
+    type: 'iframe',
+});
+//   End  Magnific Popup
+
+// Smooth Scroll for IE/ EDGE/ SAFARI
+$('a').on('click', function(event){
+    if (this.hash !==''){
+        event.preventDefault();
+
+        var hash = this.hash;
+
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+            }, 800, function(){
+            window.location.hash = hash;
+        });
+    }
+});
+// End Smooth Scroll for IE/ EDGE/ SAFARI
+
+});
 
 })(jQuery);
